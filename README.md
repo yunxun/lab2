@@ -1,6 +1,6 @@
 # lab2
 
-make
+make <<endl;
 cat file.out
 
 
