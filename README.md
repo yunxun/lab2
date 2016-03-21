@@ -2,6 +2,9 @@
 
 make 
 
+./main
+
 cat file.out
 
+done!
 
