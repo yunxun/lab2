@@ -10,7 +10,10 @@ BMI::BMI(double height,double weight){
 
 double BMI::getBMI(){
 	double bmi = _weight/((_height/100)*(_height/100));
-	return bmi;
+ 	int tem = static_cast<int>((bmi+0.005)*100);
+        double tem2 = static_cast<double>(tem)/100;
+        return tem2;
+
 }
 void BMI::setWeight(double weight){
 	_weight = weight;
